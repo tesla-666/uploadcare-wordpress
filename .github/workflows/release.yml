@@ -30,7 +30,7 @@ jobs:
                     yarn && yarn run build
                     rm -rf node_modules
             -   name: Upload Action Artifact
-                uses: actions/upload-artifact@v1
+                uses: actions/upload-artifact@v4
                 with:
                     name: uploadcare-wp
                     path: .
